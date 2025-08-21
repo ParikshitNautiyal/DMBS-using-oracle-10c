@@ -1,0 +1,522 @@
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:htmldb="http://htmldb.oracle.com"><head>
+
+<script src="SQL%20Commands2_files/htmldb_html_elements.js" type="text/javascript"></script>
+<script src="SQL%20Commands2_files/htmldb_get.js" type="text/javascript"></script>
+<script language="JavaScript" type="text/javascript">
+<!--
+/*Global JS Variables*/
+var htmldb_Img_Dir = "/i/";
+//-->
+</script>
+<link rel="stylesheet" href="SQL%20Commands2_files/core.css" type="text/css">
+<style type="text/css">
+<!-- 
+
+#R137341724550811368{display:none;}
+#R137341724550811368_show{}
+a.indexUsed,a.indexUsed:link,a.indexUsed:visited{font-weight:bold;color:#333333}
+span.highLight{color:#2F9F58;font-weight:bold;}
+.fielddatabold{padding-left:7px;}
+span.noIndex{font-weight:bold;color:#ff0000;}
+ -->
+</style>
+<script>
+
+function p1003_RunButton(){
+
+html_TabClick(html_GetElement('result_tab'),'resultsHolder');
+var pCall="sc_getResults('215109168298267')";
+setTimeout(pCall,100);
+
+
+}
+
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="SQL%20Commands2_files/htmldb_V2.css" type="text/css">
+<script src="SQL%20Commands2_files/sc_slider.js" type="text/javascript"></script>
+<script src="SQL%20Commands2_files/sc_core.js" type="text/javascript"></script>
+<script language="JavaScript1.1" type="text/javascript">
+document.onkeypress  = sc_quickKeys;
+</script>
+<title>SQL Commands</title>
+<style type="text/css">
+     #htmldbRunEditZag{border:none;} 
+    .htmldbRunEditRegion{display:none;}
+</style>
+</head>
+<body onload="first_field(); sc_PageInit()" onbeforeunload="sc_removeJob()" style="cursor: default;"><noscript>You must run this product with JavaScript enabled.</noscript><form action="wwv_flow.accept" method="post" name="wwv_flow" id="wwvFlowForm">
+  <input type="hidden" name="p_flow_id" value="4500" id="pFlowId">  <input type="hidden" name="p_flow_step_id" value="1003" id="pFlowStepId">  <input type="hidden" name="p_instance" value="215109168298267" id="pInstance">  <input type="hidden" name="p_page_submission_id" value="8266" id="pPageSubmissionId">  <input type="hidden" name="p_request" value="" id="pRequest"><a name="PAGETOP"></a><script language="JavaScript" type="text/javascript"> 
+var g_Saved="Query Saved.";
+var gUser="USER1";
+</script>
+<a id="htmldbLogo2" href="http://127.0.0.1:8080/apex/f?p=4500:1000:215109168298267"><img src="SQL%20Commands2_files/oracle_xe_logo.gif" width="300" height="30" alt="Application Express"></a><a href="javascript:popupURL('wwv_flow_help.show_help?p_lang=en-us&amp;p_session=215109168298267&amp;p_flow_id=4500&amp;p_step_id=1003');" class="htmldbNavLink"><img src="SQL%20Commands2_files/navbar_help.gif" alt="Task Help" class="htmldbNavLink">Help</a><a href="http://127.0.0.1:8080/apex/wwv_flow_custom_auth_std.logout?p_this_flow=4500&amp;p_next_flow_page_sess=4550:8:215109168298267" class="htmldbNavLink"><img src="SQL%20Commands2_files/navbar_logout.gif" alt="Logout" class="htmldbNavLink">Logout</a><a href="http://127.0.0.1:8080/apex/f?p=4500:1000:215109168298267:::::" class="htmldbNavLink"><img src="SQL%20Commands2_files/navbar_home.gif" alt="Home" class="htmldbNavLink">Home</a>
+<div class="htmldbSep"><br></div>
+<div id="htmldbUser">User: USER1<span id="htmldbWorkspace"></span></div>
+<div id="htmldbPageTabs"></div>
+<div id="htmldbBreadcrumbTop"><br></div>
+<table class="htmldbLayout" cellpadding="0" cellspacing="0" border="0" summary="">
+<tbody><tr>
+<td class="htmldbBreadcrumbRegion"><div class="htmldbBreadcrumbs"><a href="http://127.0.0.1:8080/apex/f?p=4500:1000:215109168298267::NO:::" class="htmldbBreadcrumb">Home</a><span class="htmldbBreadcrumbSep">&gt;</span><a href="http://127.0.0.1:8080/apex/f?p=4500:3002:215109168298267::NO:::" class="htmldbBreadcrumb">SQL</a><span class="htmldbBreadcrumbSep">&gt;</span><span class="htmldbBreadcrumb">SQL Commands</span><span id="htmldbCustomize"></span></div></td>
+<td rowspan="2" class="htmldbRunEditRegion"><table summary=""><tbody><tr><td nowrap="nowrap" align="right"><label for="P1003_SCHEMA"><a class="htmldbGALabel" href="javascript:popupFieldHelp('11765804246007547','215109168298267','Close')" tabindex="999">Schema</a></label></td>
+<td colspan="1" rowspan="1" align="left"><input type="hidden" name="p_arg_names" value="11765804246007547">
+<select name="p_t01" size="1" id="P1003_SCHEMA" class="htmldbTopSchema">
+<option selected="selected" value="USER1">USER1</option>
+</select>
+</td></tr>
+</tbody></table>
+</td></tr>
+<tr>
+<td id="htmldbRunEditZag"><img src="SQL%20Commands2_files/1px_trans.gif" alt="" width="1" height="6"></td>
+</tr>
+</tbody></table><a name="SkipRepNav"></a><div id="htmldbMessageHolder" style="padding:0px;margin:0px;"></div>
+<table border="0" cellspacing="0" cellpadding="0" align="center" summary="" id="SqlAndResults" width="100%" style="height: 456.75px; width: 1227px;">
+<tbody><tr>
+<td valign="top">
+<div id="scRightHeader"><table cellpadding="0" cellspacing="0" border="0" summary="" class="htmldbButtonPositionsOnly" id="R149883011479458110"><tbody><tr>
+<td width="100%"><table summary=""><tbody><tr><td nowrap="nowrap" align="right"><label for="P1003_AUTOCOMMIT"><a class="htmldbLabelOptional" href="javascript:popupFieldHelp('136320022504169238','215109168298267','Close')" tabindex="999"></a></label></td>
+<td colspan="1" rowspan="1" align="left"><input type="hidden" name="p_arg_names" value="136320022504169238">
+<input type="checkbox" name="p_v02" value="Y" checked="checked" onclick="this.blur();" onchange="sc_toggleJob(this);" id="P1003_AUTOCOMMIT_0"><span class="fielddata"><label for="P1003_AUTOCOMMIT_0">Autocommit</label></span>&nbsp;&nbsp;&nbsp;<label for="P1003_ROWS"><a class="htmldbGALabel" href="javascript:popupFieldHelp('138940226594571588','215109168298267','Close')" tabindex="999">Display</a></label><input type="hidden" name="p_arg_names" value="138940226594571588">
+<select name="p_t03" size="1" id="P1003_ROWS">
+<option selected="selected" value="10">10</option>
+<option value="15">15</option>
+<option value="20">20</option>
+<option value="30">30</option>
+<option value="50">50</option>
+<option value="100">100</option>
+<option value="200">200</option>
+<option value="500">500</option>
+<option value="1000">1000</option>
+<option value="5000">5000</option>
+<option value="10000">10000</option>
+<option value="100000">100000</option>
+</select>
+</td></tr>
+</tbody></table>
+</td>
+<td style="padding-right:25px;"><input type="button" onclick="javascript:sc_popup('saveDialog');" value="Save" class="htmldbButton"></td>
+<td></td>
+<td><input type="button" onclick="javascript:p1003_RunButton();" value="Run" class="htmldbButton"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr></tbody></table></div>
+<div id="scCommandHolder" class="d1" style="height: 225.375px; width: 1227px; overflow: hidden;"><textarea name="p_t04" cols="30" rows="4" wrap="virtual" id="P1003_SQL_COMMAND1" style="width: 1227px; height: 215px;">--- User creation
+CREATE USER demo IDENTIFIED BY demo;
+
+--- Granting permissions
+GRANT CREATE SESSION TO demo;
+
+--- Table creation 
+create table client(C_ID number(5), C_Name varchar(20),C_No number(10))
+
+--- Viewing details about attributes
+desc client
+
+--- Single row insertion 
+insert into client values(100,'Parshit',47)
+
+--- Multiple Value insertion
+insert all
+into client values(101,'Hashit',30)
+into client values(102,'Gaurav',51)
+select * from dual
+
+--- Viewing table 
+select * from client
+
+--- data is transferred from buffers to database
+commit
+
+--- implicit commit operation
+rollback
+
+--- deleting all rows but preserving the attribute names
+truncate table client 
+
+--- Deletion of specific row
+delete from client where C_ID = 100 
+
+--- Deletion of table
+drop table client   
+
+--- Granting permissions when sharing a table
+grant select,insert
+on client
+to demo
+grant update(e_id) on client to demo
+grant select on client to demo;
+
+--- Viewing a shared table
+select * from DB.client
+
+--- Viewing specific column data in a table  
+select
+HIRE_DATE
+from hr.employees
+
+--- Changing attribute name while viewing
+select
+HIRE_DATE age
+from hr.employees
+
+--- Explicit conversion to date for calculation purpose
+select
+to_date('01-jan-21') - HIRE_DATE
+from hr.employees
+
+--- Explicit conversion to string
+select to_char(sysdate)
+from dual
+
+--- Calculating the day
+select to_char(sysdate , 'day')
+from dual
+
+--- Calculating the month
+select to_char(sysdate , 'month')
+from dual
+
+--- Calculating the year. Note that the conversion type used is char
+select to_char(sysdate , 'year')
+from dual
+
+--- For viewing date in numeric format
+select to_char(sysdate , 'YYYY')
+from dual
+
+--- Use of ddspth (date spelled th)
+select to_char(sysdate , 'ddspth dd yyyy')
+from dual
+
+--- Viewing date in detail
+select to_char(sysdate , 'day dd month yyyy hh:mi:ss w')
+from dual
+
+--- Viewing details of a specific date (we can also use month)
+select to_char(to_date('8-july-2003') , 'day dd mon yyyy hh:mi:ss w')
+from dual
+
+--- Use of months_between()
+select round(months_between(sysdate,to_date('8-july-2003')))
+from dual
+
+--- Use of round on month
+select round(to_date('7-aug-2025') , 'month')
+from dual
+
+--- Use of trunc
+select trunc(to_date('7-aug-2025') , 'month')
+from dual
+
+--- Use of round() 
+select
+round(to_date('01-jan-21')-HIRE_DATE) age
+from hr.employees
+
+select round(45.926 , 3)
+from dual
+
+select round(45.926 , 2)
+from dual
+
+select round(45.926 , 1)
+from dual
+
+select round(45.926 , 0)
+from dual
+
+select round(45.926 , -1)
+from dual
+
+select round(45.926 , -2)
+from dual
+
+--- Use of || concatenation operator
+select first_name || ' ' || last_name as full_name, 
+'Employee salary = ' || salary as Employee_salary
+from hr.employees
+
+--- Use of and , between 
+select employee_id , salary
+from hr.employees
+where salary&gt;10000 and employee_id between 100 and 105
+
+--- Viewing only those name that start from 'P'
+select first_name
+from hr.employees
+where first_name like 'P%'
+
+--- Viewing only those names that start from 'P' followed by 4 letters or where total length of name is 5
+select first_name
+from hr.employees
+where first_name like 'P____'
+
+--- Viewing only those names that start from 'P' followed by 4 letters where last letter is 'r'
+select first_name
+from hr.employees
+where first_name like 'P___r'
+
+--- Viewing those values that are not null
+select
+commission_pct
+from hr.employees
+where commission_pct is not NULL
+
+--- Counting the total number of rows
+Select count(*)
+from hr.employees;
+
+--- Counting only non-null values of a specific row
+select count(commission_pct)
+from hr.employees
+
+--- Viewing after replacing all null values by a number
+select (nvl(commission_pct,0))
+from hr.employees
+
+--- Finding total number of null values in a column
+select count(nvl(commission_pct,0))-count(commission_pct)
+from hr.employees
+
+--- Use of nvl2(). If exp1 is not null then exp2 is selected otherwise exp3 is selected
+select first_name , salary , commission_pct, 
+nvl2(commission_pct,salary+commission_pct,salary)
+from hr.employees
+
+--- Using NULLIF. If both exp same then returns null otherwise returns exp1 
+select first_name , NULLIF(first_name , last_name)
+from hr.employees
+
+--- If exp1 is null then returns exp2 and if exp2 is null then returns exp3
+select last_name , coalesce (commission_pct , salary , 10)
+from hr.employees
+
+--- Us of CASE to perform specific operation on basis of values of an attribute
+select last_name , job_id , salary , 
+CASE job_id when 'IT_PROG' then 1.10*salary
+when 'ST_CLERK' then 1.15*salary
+when 'SA_REP' then 1.20*salary
+else salary END "Revised Salary"
+from hr.employees
+
+--- Creation of sample view
+create view sample_view as (select employee_id , last_name, salary from hr.employees)
+
+--- Deletion of view
+drop view sample_view;
+-- List all your tables
+select table_name from user_tables;
+
+-- List all your views
+select view_name from user_views;
+
+--- Insertion of a column
+alter table client
+add t_name1 varchar2(10)
+
+--- Set a default value in all cells of a column
+alter table client
+add p_no number(10) default 9999999999
+
+--- Increase size of an attribute
+alter table client 
+modify p_no number(20)
+
+--- Modifying a cell value in a specific row
+update client
+set c_name = 'Harshit'
+where c_id = 100
+desc client
+
+--- Viewing all constraint names used in schema along with their table name and type
+SELECT constraint_name, table_name, constraint_type
+FROM user_constraints
+
+--- Constraint name must be unique in whole schema not just a table
+--- Making an attribute to be a primary key
+alter table client
+add constraint pk1 primary key (c_id)
+
+--- Removing the first letter of a word
+select trim(leading 'n' from 'naman')
+from dual 
+
+--- Removing the last letter of a word
+select trim(trailing 'n' from 'naman')
+from dual 
+
+--- Removing a specific letter from a word
+select trim('n' from 'naman')
+from dual 
+
+--- Replacing a sub string with another sub string
+select replace('hello world' , 'world' , '*****')
+from dual 
+
+--- Viewing date 
+select sysdate
+from dual
+
+--- Viewing the max salary in each department
+select max(avg(salary))
+from hr.employees
+group by department_id
+having max(salary)&gt;6000
+
+</textarea><table summary=""><tbody><tr><input type="hidden" name="p_arg_names" value="1010404642163039">
+
+</tr></tbody></table>
+</div>
+<div id="h_slide" style="width: 1227px;"><br></div>
+<div id="scBottomHolder" style="width: 1227px;"><table class="htmldbTabbedNavigationList" border="0" cellpadding="0" cellspacing="0"><tbody><tr>
+
+<td valign="bottom"><a href="#" class="tabcurrent" id="result_tab" onclick="html_TabClick(this,'resultsHolder');return false;">Results</a></td>
+
+<td valign="bottom"><a href="#" id="explain_tab" onclick="sc_getPlan();html_TabClick(this,'explainHolder');return false;" class="">Explain</a></td>
+<td valign="bottom"><a href="#" id="describe_tab" onclick="sc_getDesc();html_TabClick(this,'describeHolder');return false;" class="">Describe</a></td>
+<td valign="bottom"><a href="#" id="savedsql_tab" onclick="sc_getSavedSQL();html_TabClick(this,'SavedSQLHolder');return false;" class="">Saved SQL</a></td>
+<td valign="bottom"><a href="#" id="history_tab" onclick="sc_DisplayHist();html_TabClick(this,'historyHolder');return false;" class="">History</a></td>
+<td width="100%"><br></td></tr></tbody></table>
+<div id="htmlTabHolder" style="width: 1227px;"><div id="resultsHolder" class="fielddata" style=""><div id="BOX_BODY"><table summary=""><input type="hidden" name="p_arg_names" value="4417028828681705">
+<input type="hidden" name="p_t01" value="10" id="P1200_ROWS">
+<input type="hidden" name="p_arg_names" value="4418303464693368">
+<input type="hidden" name="p_t02" value="select last_name , coalesce (commission_pct , salary , 10)
+from hr.employees
+" id="P1200_PREV_SQL">
+<input type="hidden" name="p_arg_names" value="21572909937200807">
+<input type="hidden" name="p_t03" value="" id="P1200_ACTION">
+<input type="hidden" name="p_arg_names" value="21606912080381235">
+<input type="hidden" name="p_t04" value="" id="P1200_BINDS">
+<input type="hidden" name="p_arg_names" value="21736625668766618">
+<input type="hidden" name="p_t05" value="" id="P1200_BIND_VALS">
+<tbody><tr><td></td><td colspan="1" rowspan="1" align="left"><input type="hidden" name="p_arg_names" value="141063525539678026">
+<input type="hidden" name="p_t06" value="" id="P1200_TYPE">
+</td><td></td><td colspan="1" rowspan="1" align="left"><input type="hidden" name="p_arg_names" value="141446907512589228">
+<input type="hidden" name="p_t07" value="" id="P1200_STMT">
+</td></tr></tbody></table>
+<div id="ResultsSQL">
+<table summary="" cellpadding="0" cellspacing="0" border="0" class="htmldbMinReport">
+<tbody><tr><th>LAST_NAME</th><th>COALESCE(COMMISSION_PCT,SALARY,10)</th></tr>
+<tr><td>King</td><td>24000</td></tr>
+<tr><td>Kochhar</td><td>17000</td></tr>
+<tr><td>De Haan</td><td>17000</td></tr>
+<tr><td>Hunold</td><td>9000</td></tr>
+<tr><td>Ernst</td><td>6000</td></tr>
+<tr><td>Austin</td><td>4800</td></tr>
+<tr><td>Pataballa</td><td>4800</td></tr>
+<tr><td>Lorentz</td><td>4200</td></tr>
+<tr><td>Greenberg</td><td>12000</td></tr>
+<tr><td>Faviet</td><td>9000</td></tr>
+<tr><td colspan="2">More than 10 rows available. Increase rows selector to view more rows.</td></tr>
+</tbody></table>
+</div>
+<table><tbody><tr><td><span style="font-size:13px">10 rows returned in                0.00 seconds</span></td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td><span style="font-size:11px"><a href="http://127.0.0.1:8080/apex/f?p=4500:1204:215109168298267::::P1204_BROWSER_LANG:en-us">CSV Export</a></span></td></tr></tbody></table><table class="htmldbShowHide" cellpadding="0" cellspacing="0" border="0" summary="" id="R137341724550811368">
+<thead id="headR137341724550811368">
+<tr>
+<th class="htmldbShowHide"><span onclick="htmldb_ToggleTableBody('iR137341724550811368','bodyR137341724550811368')"><img src="SQL%20Commands2_files/rollup_plus_dgray.gif" class="pseudoButtonActive" id="iR137341724550811368" alt="">DBMS Output</span></th>
+</tr>
+</thead>
+<tbody style="display:none;" id="bodyR137341724550811368">
+<tr><td class="htmldbShowHide"><div id="DBMS_OUTPUT_DIV">&nbsp;</div></td></tr>
+</tbody>
+</table><table summary=""><tbody><tr><td></td><td colspan="1" rowspan="1" align="left"><input type="hidden" name="p_arg_names" value="11141129549203626">
+<input type="hidden" name="p_t08" value="" id="OB_OBJECT_NAME">
+</td><td></td><td colspan="1" rowspan="1" align="left"><input type="hidden" name="p_arg_names" value="11143605700225196">
+<input type="hidden" name="p_t09" value="" id="P0_PPRTIMESTAMP">
+</td></tr></tbody></table>
+</div></div><div id="explainHolder" style="display:none;"></div><div id="describeHolder" style="display:none;"></div>
+
+
+
+
+<script language="JavaScript1.1" type="text/javascript" style="display: none;">
+     <!-- Comment out script for old browsers
+ function filter_escape(in_value) {
+                out_value = escape( in_value );
+                return out_value;
+            }
+        function genList0_p_t02_4(filter)
+         {
+         
+pUrl = "wwv_flow_utilities.gen_popup_list";
+pUrl += "?p_filter="  + filter_escape(filter.value);
+pUrl += "&p_name=" + escape('p_t02');
+pUrl += "&p_element_index=" + escape('4');
+pUrl += "&p_form_index=" + escape('0');
+pUrl += "&p_max_elements=" + escape('');
+pUrl += "&p_escape_html=" + escape('');
+pUrl += "&p_ok_to_query=" + escape('YES');
+pUrl += "&p_flow_id=" + escape('4500');
+pUrl += "&p_page_id=" + escape('139');
+pUrl += "&p_session_id=" + escape('215109168298267');
+pUrl += "&p_eval_value=" + escape('');
+pUrl += "&p_translation=" + escape('N');
+pUrl += "&p_lov=" + filter_escape('select owner||\'.\'||object_name d,owner||\'.\'||object_name r  from all_objects   where object_type = :p139_type   and object_name not like \'BIN%\'   and object_name not like \'DR$%\'   order by 1');
+pUrl += "&p_lov_checksum=11C9E09D7D7595D2A70B20B404698D22";
+cDebug(pUrl)
+           w = open(pUrl,"winLovList","Scrollbars=1,resizable=1,width=400,height=500");
+           if (w.opener == null)
+             w.opener = self;
+           w.focus();
+         }//-->
+     </script><div id="historyHolder" style="display:none;"></div><div id="SavedSQLHolder" style="display:none;"></div></div></div>  
+</td>
+</tr>
+</tbody></table>
+<table summary=""><tbody><tr><td></td><td colspan="1" rowspan="1" align="left"><input type="hidden" name="p_arg_names" value="1009422172158645">
+<input type="hidden" name="p_t05" value="select last_name , coalesce (commission_pct , salary , 10)
+from hr.employees
+" id="P1003_SQL_COMMAND2">
+</td><td></td><td colspan="1" rowspan="1" align="left"><input type="hidden" name="p_arg_names" value="6499004703108337">
+<input type="hidden" name="p_t06" value="" id="P1003_QUERY_ID">
+</td><td></td><td colspan="1" rowspan="1" align="left"><input type="hidden" name="p_arg_names" value="22427709467385060">
+<input type="hidden" name="p_t07" value="" id="P1003_DESC_OBJ">
+</td><td></td><td colspan="1" rowspan="1" align="left"><input type="hidden" name="p_arg_names" value="22928616063638920">
+<input type="hidden" name="p_t08" value="0" id="P1003_POPUP">
+</td><td></td><td colspan="1" rowspan="1" align="left"><input type="hidden" name="p_arg_names" value="22929809614646511">
+<input type="hidden" name="p_t09" value="" id="P1003_RETURN_INTO">
+</td><td></td><td colspan="1" rowspan="1" align="left"><input type="hidden" name="p_arg_names" value="136534514172415835">
+<input type="hidden" name="p_t10" value="" id="P1003_JOBID">
+</td></tr>
+</tbody></table>
+<table style="display:none;position:absolute;background-color:#EEEEEE;border:#000000 solid 1px;padding:0px;text-align:center;font-size:12px;color:#000000;" summary="" cellpadding="0" cellspacing="0" border="0" id="R6464923591877238">
+<tbody><tr>
+<td class="htmldbWizardHeader">Save SQL</td>
+<td class="htmldbWizardHeader" align="right"><span onclick="dhtml_CloseDialog(this);"><img src="SQL%20Commands2_files/vertical_close.png"></span></td>
+</tr>
+<tr>
+<td colspan="2" class="htmldbWizardBody"><div id="saveDialog"><table summary=""><tbody><tr><td nowrap="nowrap" align="right"><label for="P1003_SAVE_NAME"><a class="htmldbLabelRequired" href="javascript:popupFieldHelp('6470812902902555','215109168298267','Close')" tabindex="999"><img src="SQL%20Commands2_files/requiredicon_status2.gif" alt="">Name</a></label></td>
+<td colspan="1" rowspan="1" align="left"><input type="hidden" name="p_arg_names" value="6470812902902555">
+<input type="text" name="p_t11" size="30" maxlength="2000" id="P1003_SAVE_NAME">
+</td></tr><tr><td nowrap="nowrap" align="right" valign="top"><label for="P1003_SAVE_DESC"><a class="htmldbLabelOptional" href="javascript:popupFieldHelp('6471725716906222','215109168298267','Close')" tabindex="999">Description</a></label></td>
+<td colspan="1" rowspan="1" align="left"><input type="hidden" name="p_arg_names" value="6471725716906222">
+<textarea name="p_t12" cols="30" rows="2" wrap="virtual" id="P1003_SAVE_DESC"></textarea>
+</td></tr>
+</tbody></table>
+</div></td>
+</tr>
+<tr>
+<td colspan="2" align="right"><input type="button" onclick="javascript:sc_CancelSave();" value="Cancel" class="htmldbButton">&nbsp;&nbsp;&nbsp;<input type="button" onclick="javascript:sc_saveSql();" value="Save" class="htmldbButton"></td>
+</tr>
+</tbody></table><table summary=""><tbody><tr><td></td><td colspan="1" rowspan="1" align="left"><input type="hidden" name="p_arg_names" value="11141129549203626">
+<input type="hidden" name="p_t13" value="" id="OB_OBJECT_NAME">
+</td><td></td><td colspan="1" rowspan="1" align="left"><input type="hidden" name="p_arg_names" value="11143605700225196">
+<input type="hidden" name="p_t14" value="" id="P0_PPRTIMESTAMP">
+</td></tr></tbody></table>
+
+<div class="htmldbFlowV">Application Express 2.1.0.00.39</div>
+<div class="htmldbNewBottom">
+<div class="htmldbNewBottom1">Language: en-us</div>
+<div class="htmldbNewBottom2">Copyright © 1999, 2006, Oracle. All rights reserved.</div>
+<br style="clear:both;">
+</div>
+<input type="hidden" name="p_md5_checksum" value=""></form>
+<a name="END"><br></a>
+<script language="JavaScript1.1" type="text/javascript">
+    first_field('P1003_SQL_COMMAND1');
+</script>
+
+</body></html>
